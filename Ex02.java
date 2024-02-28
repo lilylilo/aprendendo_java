@@ -1,16 +1,11 @@
-/* Lista 1- exercício 2
-   Faça um programa que receba a quantidade e o valor de dois produtos, no seguinte formato: quantidade1 valor1 quantidade2 valor2. O programa deve calcular esses valores seguindo a fórmula total = (quantidade1 x valor1) + (quantidade2 x valor2).
-O valor total deve ser apresentado no final da execução. */
+package aula2802;
 
-public class Ex02{
-	public static void main(String args[]){
-		int quantidade1 = Integer.parseInt(args[0]);
-		int valor1 = Integer.parseInt(args[1]);
-		int quantidade2 = Integer.parseInt(args[2]);
-		int valor2 = Integer.parseInt(args[3]);
-
-		int total = (quantidade1 * valor1) + (quantidade2 * valor2);
-
-		System.out.println("Total : "+total);
+public class Ex02 {
+	public static void main(String[] args) {
+		int produto = 1;
+		for(int i=1; i<=15; i+=2) {
+			produto = produto *i;
+		}
+		System.out.println("Produto= "+produto);
 	}
 }
