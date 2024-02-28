@@ -1,13 +1,12 @@
-/* Lista 1- exercício 3
-   Crie um programa que receba a largura e o comprimento de um lote de terra e mostre a área total existente. */
+package aula2802;
 
-public class Ex03{
-	public static void main(String args[]){
-		int largura = Integer.parseInt(args[0]);
-		int comprimento = Integer.parseInt(args[1]);
-
-		int area = (largura * comprimento);
-
-		System.out.println("Area : "+area);
+public class Ex03 {
+	public static void main(String[] args) {
+		
+		int soma = 0;
+		for(int i=1; i<=100; i++) {
+			soma = soma +i;
+		}
+		System.out.println("Soma= "+soma);
 	}
 }
