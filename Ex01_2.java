@@ -1,5 +1,6 @@
 package aula2802;
 // Lista 2
+//Faça um aplicativo que receba três valores inteiros na linha de comando emostre o maior dentre eles
 
 import java.util.Scanner;
 
