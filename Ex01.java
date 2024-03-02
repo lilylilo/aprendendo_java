@@ -1,29 +1,9 @@
-package aula2802;
-// Lista 2
+/* Lista 1- exercício 1
+   Crie um programa que recebe três nomes quaisquer por meio da linha de execução do programa (prompt), e os imprima na tela da seguinte maneira: o primeiro e o último nome serão impressos na primeira linha um após o outro, o outro nome (segundo) será impresso na segunda linha. */
 
-import java.util.Scanner;
-
-public class Ex01 { 
-
-	public static void main(String[] args) {
-		
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.println("Digite valor de A: ");
-		int a = sc.nextInt();
-		
-		System.out.println("Digite valor de B: ");
-		int b = sc.nextInt();
-		
-		System.out.println("Digite valor de C: ");
-		int c = sc.nextInt();
-		
-		if(a>=b && a>=c)
-			System.out.println("A é maior "+a);
-		else if(b>=c)
-			System.out.println("B é maior "+b);
-		else
-			System.out.println("C é maior "+c);
+public class Ex01{
+	public static void main(String args[]){
+		System.out.println(args[0]+" "+args[2]);
+		System.out.println(args[1]);
 	}
-
 }
