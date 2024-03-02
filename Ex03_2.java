@@ -1,5 +1,5 @@
 package aula2802;
-//Faça um programa que apresente o total da soma dos cem primeirosnúmeros inteiros (1+2+3+.....+99+100).
+//Faça um programa que apresente o total da soma dos cem primeirosnúmeros inteiros (1+2+3+.....+99+100)
 
 public class Ex03 {
 	public static void main(String[] args) {
