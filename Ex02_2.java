@@ -1,5 +1,5 @@
 package aula2802;
-//Faça um aplicativo que calcule o produto dos inteiros ímpares de 1 a 15 eexiba o resultado na tela
+//Faça um aplicativo que calcule o produto dos inteiros ímpares de 1 a 15 eexiba o resultado na tela//
 
 public class Ex02 {
 	public static void main(String[] args) {
